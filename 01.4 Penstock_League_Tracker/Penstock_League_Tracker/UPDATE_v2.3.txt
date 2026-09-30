@@ -1,0 +1,27 @@
+PENSTOCK LEAGUE TRACKER v2.3
+CONCRETE ENCASEMENT RN -> CHECKLIST PICTURE 1
+
+NEW
+- RN Picture 1 now reads CONCRETE ENCASEMENT records with chainages.
+- Selecting an RN highlights ALL encasement chainage sections assigned to it.
+- Selected sections are labelled RN + start/end chainage on the sketch.
+- SELECT ALL ENCASEMENTS and CLEAR ALL controls.
+- One checklist Picture 1 is exported per selected RN.
+- Automatic destination:
+  C:\Users\Kgali.Motumi\OneDrive - Stefanutti Stocks\Desktop\INREP36600 - Tweefontein TSF Project Files\15 Quality\6. Inspections\5. Penstock Pipeline\Concrete\Picture 1
+- Filename is exactly RN###.png, e.g. RN268.png.
+- Existing file prompts Replace/Cancel.
+- Export is a clean 1920x1080 checklist image, not a screenshot of controls.
+- Multiple encasements under one RN appear together on the same image.
+- Filename-RN-master concrete lab logic from v2.2 is retained.
+
+VERIFIED DATA EXAMPLE
+RN268 after filename-master linking:
+- Pipe encasement CH164.2-CH170.2
+- Pipe encasement CH176.2-CH182.2
+- Sleeper qty 10 (no chainage, therefore not drawn as an encasement line)
+
+IMPORTANT
+KEEP YOUR EXISTING penstock_tracker.db.
+This update deliberately does not contain a database.
+Replace code files/assets only.
